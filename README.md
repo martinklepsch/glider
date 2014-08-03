@@ -1,18 +1,17 @@
 # glider
 
-FIXME
+An experiment in creating an as-light-as-possible starting ground
+for web projects in Clojure and Clojurescript. I have a short list
+of things I want to have working:
 
-## Prerequisites
+- basic Clojurescript setup
+- editor agnostic browser REPL setup
+- easy deployment on Heroku or via Uberjar
 
-You will need [Leiningen][1] 1.7.0 or above installed.
-
-[1]: https://github.com/technomancy/leiningen
-
-## Running
-
-To start a web server for the application, run:
-
-    lein ring server
+There are a few templates already out there that do similar things
+but often they add a considerable amount of boilerplate in places
+that might be confusing to beginners. I'd like to keep all the generated
+code in the usual `src` source tree.
 
 ## License
 
